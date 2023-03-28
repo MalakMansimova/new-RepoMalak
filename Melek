@@ -1,0 +1,9 @@
+let input=document.querySelector('input')
+let todo=document.querySelector('#todo')
+const btn=document.querySelector('button')
+btn.addEventListener('click',function(alt){
+
+   todo.innerHTML+=`<p>${input.value}<p>`
+
+
+})
